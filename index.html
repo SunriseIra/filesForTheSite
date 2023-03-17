@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" />
+
     <title>Document</title>
 </head>
 <body>
-    <section class="popuppp">
+    <section class="popuppp ">
+<span class="popup-link">click me!</span>
         <!-- popup-link add to the class where it should be called popup -->
         <div class="popup"> 
             <div class="popup_body">
@@ -74,5 +77,31 @@
             </div>
           </div>
     </section>
+    <section class="burger_menu">
+        <nav class="header_inner_nav" id="nav">
+            <a class="nav_link" href="Procedure.html" data-scroll="#home"
+              >Procedure</a
+            >
+            <a class="nav_link" href="AboutUs.html" data-scroll="#whoweare"
+              >About Us</a
+            >
+            <a class="nav_link" href="Doctors.html" data-scroll="#whyus"
+              >Vasectomists</a
+            >
+            <a class="nav_link" href="Cost.html" data-scroll="#solutions"
+              >Vasectomy Cost</a
+            >
+            <a class="nav_link" href="Referring.html" data-scroll="#benefits"
+              >For Referrals</a
+            >
+            <a class="nav_link" href="Location.html" data-scroll="#our"
+              >Locations</a
+            >
+          </nav>
+        <button class="nav-toggle" id="nav_toggle" type="button">
+            <span class="nav-toggle_item">Menu</span>
+          </button>
+    </section>
+    <script src="JS/app.js"></script>
 </body>
 </html>

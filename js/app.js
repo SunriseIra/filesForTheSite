@@ -27,3 +27,12 @@ popup.addEventListener("click", (e) => {
     popup.classList.remove("active");
   }
 });
+
+
+// burger menu
+let inner_nav = document.querySelector(".header_inner_nav");
+let toggle = document.querySelector(".nav-toggle");
+toggle.addEventListener("click", function () {
+  toggle.classList.toggle("active");
+  inner_nav.classList.toggle("active");
+});
